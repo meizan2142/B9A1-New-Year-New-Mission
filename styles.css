@@ -71,7 +71,7 @@
     background-image: url(resources/Vectorrr.png);
     background-repeat: no-repeat;
     max-width: 1840px;
-    height: 70vh;
+    height: 30vh;
     margin-top: 100px;
     margin: 80px 100px 0px 300px;
     padding: 180px ;
@@ -98,41 +98,44 @@ width: 600px;
 .welcome-section button {
     margin-top: 20px;
     padding: 10px;
-    background-color: yellowgreen;
+    background-color: red;
     border: none;
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;
 }
 
+/* place-date-time-section */
 
+.place-date-time {
+    max-width: 1840px;
+    height: 30vh;
+    background-color: #FDE5EC;
+    margin: 80px 270px 50px 300px;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 100px ;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px; /* 175% */
+    text-transform: capitalize;
+}
 
+.place-date-time span {
+    color: red;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.place-date-time button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: red;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;
+}
 
 
 /* footer-section */
