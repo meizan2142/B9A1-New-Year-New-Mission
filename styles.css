@@ -116,7 +116,6 @@ width: 600px;
     padding-top: 100px ;
     font-family: Inter;
     font-size: 32px;
-    font-style: normal;
     font-weight: 600;
     line-height: 56px;
     text-transform: capitalize;
@@ -186,8 +185,8 @@ width: 600px;
 
 .new-best-offer .greetings img {
     width: 140px;
-height: 140px;
-flex-shrink: 0;
+    height: 140px;
+    flex-shrink: 0;
 }
 
 .new-best-offer img{
@@ -198,7 +197,7 @@ flex-shrink: 0;
 
 .functional-section {
     text-align: center;
-    height: 30vh;
+    height: 20vh;
     margin-top: 100px;
 }
 
@@ -231,32 +230,52 @@ flex-shrink: 0;
 }
 
 /* subscribe-section */
-.subscribe .button {
-    display: flex;
+.subscribe-section {
     text-align: center;
+    background-color: #FDE5EC;
+    max-width: 1840px;
+    height: 50vh;
+    margin: 80px 270px 50px 300px;
+    border-radius: 10px;
+    padding-top: 100px ;
 }
+
+.subscribe img {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+.subscribe h1 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.subscribe p {
+    margin-bottom: 30px;
+}
+
 
 .subscribe .button input, button {
-    padding: 10px;
-    /* border: none; */
-    
-    
-}
-
-.subscribe {
-    text-align: center;
+    padding: 20px 30px 20px 30px;
+    border: none;
 }
 
 .subscribe .button input {
     border-right: 0;
-    border-top-left-radius: 50%;
-    border-bottom-left-radius: 50%;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
 }
 
 .subscribe .button button {
     border-left: 0;
-    border-top-right-radius: 50%;
-    border-bottom-right-radius: 50%;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    background-color: #F00;
+    color: #FFF;
 }
 
 
