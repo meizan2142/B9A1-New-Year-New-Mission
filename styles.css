@@ -194,6 +194,72 @@ flex-shrink: 0;
     width: 250px;
 }
 
+/* functional-section */
+
+.functional-section {
+    text-align: center;
+    height: 30vh;
+    margin-top: 100px;
+}
+
+.functional-section h5 {
+    color: #070211;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 800;
+    margin-bottom: 5px;
+}
+
+.functional-section h1 {
+    color: black;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+}
+
+.functional-section h1 span{
+    color: red;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+}
+
+.functional-section p {
+    color: rgba(7, 2, 17, 0.60);
+}
+
+/* subscribe-section */
+.subscribe .button {
+    display: flex;
+    text-align: center;
+}
+
+.subscribe .button input, button {
+    padding: 10px;
+    /* border: none; */
+    
+    
+}
+
+.subscribe {
+    text-align: center;
+}
+
+.subscribe .button input {
+    border-right: 0;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+}
+
+.subscribe .button button {
+    border-left: 0;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+
 /* footer-section */
 
 footer {
@@ -256,38 +322,6 @@ hr {
     margin: 25px 100px 0 100px ;
 }
 
-.functional-section {
-    text-align: center;
-    height: 30vh;
-    margin-top: 100px;
-}
 
-.functional-section h5 {
-    color: #070211;
-    font-family: Inter;
-    font-size: 15px;
-    font-weight: 800;
-    margin-bottom: 5px;
-}
-
-.functional-section h1 {
-    color: black;
-    text-align: center;
-    font-family: Merriweather;
-    font-size: 72px;
-    font-weight: 900;
-}
-
-.functional-section h1 span{
-    color: red;
-    text-align: center;
-    font-family: Merriweather;
-    font-size: 72px;
-    font-weight: 900;
-}
-
-.functional-section p {
-    color: rgba(7, 2, 17, 0.60);
-}
 
 
