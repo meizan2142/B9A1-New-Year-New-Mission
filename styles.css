@@ -347,6 +347,7 @@
     padding: 20px 30px 20px 30px;
     border: none;
     outline: none;
+    gap: 0;
 }
 
 .subscribe .button input {
