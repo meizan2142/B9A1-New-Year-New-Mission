@@ -6,33 +6,35 @@
 /* header-section */
 
 .container {
-    background-image: url("resources/Banner\ Image.png");
+    background: linear-gradient(rgba(0, 0, 0, 0.1),  rgba(0, 1, 1,0)), url("resources/Banner\ Image.png");
     max-width: 1840px;
     height: 80vh;
     background-repeat: no-repeat;
     color: white;
-    margin: 80px 100px 0px 300px;
+    margin: 80px 282px 10px 300px;
+    background-color: white;
+
 }
 
 .container h1 , h4 {
     text-align: center;
-    margin-right: 100px;
+    margin-right: 20px;
     
 }
 
 .container h4 {
-    padding-top: 220px;
+    padding-top: 200px;
     font-family: Merriweather;
     font-size: 32px;
     font-weight: 400;
 }
-
 
 .container h1 {
     font-family: Merriweather;
     font-size: 64px;
     font-weight: 900;
 }
+
 
 .discount-section {
     text-align: center;
@@ -65,8 +67,8 @@
 
 /* welcome-section  */
 
-.welcome-section {
-    background-image: url(resources/Vectorrr.png);
+.welcome {
+    background-image: url("resources/Vectorrr.png");
     background-repeat: no-repeat;
     max-width: 1840px;
     height: 30vh;
@@ -74,6 +76,14 @@
     margin: 80px 100px 0px 300px;
     padding: 180px ;
     color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.welcome img {
+    width: 200px;
+    margin: 0px 100px 0px 0px;
 }
 
 .welcome-section h1 {
@@ -102,7 +112,7 @@ width: 600px;
     color: white;
     border-radius: 10px;
     font-size: 20px;
-}
+} 
 
 /* place-date-time-section */
 
@@ -110,7 +120,7 @@ width: 600px;
     max-width: 1840px;
     height: 30vh;
     background-color: #FDE5EC;
-    margin: 80px 270px 50px 300px;
+    margin: 100px 270px 50px 300px;
     border-radius: 10px;
     text-align: center;
     padding-top: 100px ;
@@ -119,6 +129,7 @@ width: 600px;
     font-weight: 600;
     line-height: 56px;
     text-transform: capitalize;
+    background: linear-gradient(rgba(247, 0, 0, 0.1) ,  rgba(7, 7, 227, 0));
 }
 
 .place-date-time span {
@@ -186,12 +197,12 @@ width: 600px;
 .new-best-offer .img {
     height: 400px;
     width: 400px;
-    border: 5px solid red;
+    border: 10px solid red;
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 25px 5px 0 30px;
+    padding: 30px 5px 0 30px;
 }
 
 .new-best-offer .img .rounded-image {
@@ -341,7 +352,7 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 100px 100px 0 100px;
+    padding: 100px 270px 0 300px;
 }
 
 .footer-text .icons .first-text {
